@@ -106,9 +106,6 @@ export const SalesChart: React.FC<SalesChartProps> = ({
             <Legend />
           </PieChart>
         );
-      
-      default:
-        return null;
     }
   };
   
